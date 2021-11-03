@@ -21,7 +21,7 @@ bool BUTTON_TICK_CLICK;     // Переменная кнопки смены яр
 
 GTimer Timer_DataOK(MS);    // Таймер проверки данных
 SoftwareSerial LORA(5, 4);  // Выводы RX и TX   5/4
-GButton Btn_Set0(BTN_Set0); // Кнопка Set-0
+GButton Btn_Set0(BTN_Set0); // Кнопка Set-0///////////////
 
 TM1637TinyDisplay6 display(CLK, DIO); // Инициализация дисплея как display
 
